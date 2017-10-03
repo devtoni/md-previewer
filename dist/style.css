@@ -1,0 +1,32 @@
+.TextContent__Textarea___ysyEr {
+  width: 90%;
+  max-width: 700px;
+  min-height: 500px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  resize: none; }
+.Previewer__Previewer___2rLpf {
+  max-width: 700px;
+  min-height: 500px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  background-color: #fff; }
+.App__App___3Jj_y {
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  padding: 2em; }
+  .App__App_content_block___3Yz2T {
+    display: flex; }
+    .App__App_content_block___3Yz2T > * {
+      flex: 1;
+      text-align: left; }
+body {
+  background-color: #e5e5e5;
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+pre {
+  background-color: #f5f8fa;
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: 300; }
