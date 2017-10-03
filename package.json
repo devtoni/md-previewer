@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "create": "webpack",
-    "production": "webpack -p",
+    "production": "webpack",
     "test": "jest",
     "test:update": "jest -u",
     "test:coverage": "jest --coverage",
