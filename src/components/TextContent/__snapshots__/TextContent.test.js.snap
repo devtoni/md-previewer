@@ -8,33 +8,19 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <Title
-      title="markdown previewer"
-    />
-    <div>
-      <SubTitle
-        title="markdown"
-      />
-      <SubTitle
-        title="preview"
-      />
-    </div>
-  </div>,
+  "node": <textarea
+    cols="30"
+    defaultValue="Write here"
+    onChange={[Function]}
+    rows="10"
+  />,
   "nodes": Array [
-    <div>
-      <Title
-        title="markdown previewer"
-      />
-      <div>
-        <SubTitle
-          title="markdown"
-        />
-        <SubTitle
-          title="preview"
-        />
-      </div>
-    </div>,
+    <textarea
+      cols="30"
+      defaultValue="Write here"
+      onChange={[Function]}
+      rows="10"
+    />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -42,7 +28,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <App />,
+      "_currentElement": <TextContent />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -70,33 +56,19 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
-          <Title
-            title="markdown previewer"
-          />
-          <div>
-            <SubTitle
-              title="markdown"
-            />
-            <SubTitle
-              title="preview"
-            />
-          </div>
-        </div>,
+        "_currentElement": <textarea
+          cols="30"
+          defaultValue="Write here"
+          onChange={[Function]}
+          rows="10"
+        />,
         "_debugID": 2,
-        "_renderedOutput": <div>
-          <Title
-            title="markdown previewer"
-          />
-          <div>
-            <SubTitle
-              title="markdown"
-            />
-            <SubTitle
-              title="preview"
-            />
-          </div>
-        </div>,
+        "_renderedOutput": <textarea
+          cols="30"
+          defaultValue="Write here"
+          onChange={[Function]}
+          rows="10"
+        />,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,
@@ -108,6 +80,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <App />,
+  "unrendered": <TextContent />,
 }
 `;

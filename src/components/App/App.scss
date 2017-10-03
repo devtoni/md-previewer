@@ -1,0 +1,12 @@
+.App {
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  padding: 2em;
+  &_content_block {
+    display: flex;
+    & > * {
+      flex: 1;
+      text-align: left;
+    }
+  }
+}
